@@ -1,4 +1,110 @@
 * {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+     /* border: .1rem solid rgb(32, 255, 3); */ 
+}
+
+body {
+    /* border: .1rem solid rgb(255, 6, 48); */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    /* border: .1rem solid red; */
+    background-color: rgb(51, 51, 51);
+    color: #eee;
+    height: 3 rem;
+    padding: .7rem;
+    display: flex;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.logo{
+    background-color: blue;
+    width: 3rem;
+    height: 3rem;
+    margin-right: .5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    
+}
+section {
+    border: .1rem solid blue;
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    /* border: .1rem solid orange; */
+    width: 10rem;
+    background-color: #eee;
+}
+main {
+    /* border: .1rem solid purple; */
+    flex: 1;
+    padding: .7rem;
+}
+
+.cartao {
+    border: .2rem solid #eee;
+    width: 12rem;
+    height: 16rem;
+    box-shadow: .5rem .5rem .1rem .03rem #ccc;
+    padding: .5rem;
+}
+
+.imagem {
+    width: 100%;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: .2rem;
+}
+
+.descricao {
+    margin-top: .2rem;
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    text-align: right;
+}
+
+.botao {
+    border: none;
+    border-radius: .5rem;
+    background-color: blue;
+    color: #eee;
+    width: 100%;
+    padding: .3rem .5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    /* border: .1rem solid green; */
+    background-color: rgb(51, 51, 51);
+    color: #eee;
+    height: 3rem;
+    padding: .7rem;
+    display: flex;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
