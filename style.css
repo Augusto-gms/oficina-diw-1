@@ -43,7 +43,7 @@ header {
 
 .titulo-cabecalho {
     /* border: .1rem solid green; */
-    flex:1;
+    flex: 1;
 }
 
 .menu-hamburguer{
@@ -90,14 +90,17 @@ main {
     /* border: .1rem solid purple; */
     flex: 1;
     padding: .7rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cartao {
     border: .2rem solid #eee;
     width: 12rem;
-    height: 17rem;
+    height: 18rem;
     box-shadow: .5rem .5rem .2rem .03rem #ccc;
     padding: .5rem;
+    margin-bottom: 1rem;
 }
 
 .imagem {
@@ -150,5 +153,8 @@ footer {
     }
     nav{
         display: none;
+    }
+    main {
+        display: flex;
     }
 }
